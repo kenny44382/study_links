@@ -27,12 +27,12 @@ Plotly Express, a high-level API within the Plotly ecosystem, simplifies the pro
 NetworkX and Streamlit can be integrated to build interactive web applications for network analysis and visualization. <br />
 NetworkX is a Python package specifically designed for the creation, manipulation, and study of complex networks, while Streamlit is an open-source framework that allows users to turn Python scripts into sharable web applications with minimal effort.<br />
 pyvis is often used in conjunction with NetworkX and Streamlit to create interactive network visualizations.<br />
-<br />Create a NetworkX graph:
-- Define your network structure using NetworkX, including nodes and edges, and potentially adding attributes to them.
-<br />Visualize the graph using Pyvis (or Matplotlib):
-- Pyvis - Convert the NetworkX graph to a Pyvis network object, which can then be rendered as an interactive HTML file.
-- Matplotlib - Use NetworkX's built-in drawing capabilities with Matplotlib to create static visualizations.
-<br />Embed in Streamlit:
+Create a NetworkX graph:
+- Define your network structure using NetworkX, including nodes and edges, and potentially adding attributes to them.<br />
+Visualize the graph using Pyvis (or Matplotlib):
+- Pyvis - Convert the NetworkX graph to a Pyvis network object, which can then be rendered as an interactive HTML file.<br />
+- Matplotlib - Use NetworkX's built-in drawing capabilities with Matplotlib to create static visualizations. <br />
+Embed in Streamlit:
 - Pyvis: Use st.components.v1.html to embed the generated Pyvis HTML content directly into your Streamlit application, making the network interactive within the web app.
 - Matplotlib: Use st.pyplot() to display the Matplotlib-generated plot in your Streamlit application.
 Add Streamlit widgets:
